@@ -1,0 +1,119 @@
+#logo{
+    text-align:left;
+    height: 70px;
+    width: 70px;
+}
+.top{
+    text-align:right;
+    border:2px;
+}
+header{
+    text-align: center;
+    color: blue;
+}
+footer{
+   
+    color:peachpuff;
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+ 
+}
+.copy{
+    text-align: center;
+}
+
+
+img {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: -1000%;
+
+}
+body{
+    background-color:yellowgreen;
+}
+
+#copy{
+    text-align: center;
+}
+#office{
+    text-align: left;
+}
+#question{
+   
+    font-size: xx-large;
+    font-weight: bolder;
+    font: display 1;;
+}
+#news{
+  
+    font-size: xx-large;
+    font-weight: bolder;
+    font-display: 1;;
+    color: green;
+}
+
+.media{
+    text-align:right ;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.header{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-stretch: semi-expanded;
+   
+}
+.phone{
+    text-align: center;
+}
+.hour{
+    text-align: right;
+}              /* columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+ 
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.eiff{
+    background-image: url('cover2.jpg');
+    background-repeat: repeat-x;
+}
+.grads{
+    background-image: url('graduates.jpg');   
+}
+.para{
+    color:blue;
+}
+.about{
+    background-image: url('cover.jpg');
+   
+}
+.umbrella{
+    background-image: url('cover.jpg');
+}
+.rain{
+    background-image: url('rain.jpeg');
+}
+.amb{
+    background-image: url('amb.jpg');
+
+}
+
+.pension{
+    background-image: url('pension.jpeg');
+}
